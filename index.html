@@ -14,9 +14,9 @@
   </head>
   <body>
     <!-- header section  -->
-    <header class="bg-secondary">
+    <header class="container-fluid bg-secondary bg-opacity-50">
       <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid container mt-3">
+        <div class="container mt-3">
           <a class="navbar-brand text-light fw-bold" href="#">Bike Zone</a>
           <button
             class="navbar-toggler"
@@ -70,6 +70,73 @@
           </div>
         </div>
       </nav>
+      <!-- banner section -->
+      <section class="container mt-5">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="row">
+                <div class="col-6 d-block justify-content-center">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore, optio.
+                  </p>
+                  <h1>Lorem ipsum dolor sit amet.</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Neque cum perferendis id ipsam iure repellat sunt dicta sint
+                    labore laboriosam!
+                  </p>
+                  <button>Purchase</button>
+                </div>
+                <div class="col-6">
+                  <img
+                    src="images/header-bike.png"
+                    class="d-block w-100 img-fluid"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="images/header-bike.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/header-bike.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
     </header>
     <!-- main section  -->
     <main></main>
